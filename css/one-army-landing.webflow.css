@@ -1,0 +1,59 @@
+.landing {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+  background-image: url('../images/people-coming-togetherproblems.png');
+  background-position: 50% 120%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 24px;
+  text-align: center;
+}
+
+.heading {
+  width: 60%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.image {
+  margin-bottom: 50px;
+}
+
+.link {
+  color: #000;
+}
+
+.link-2 {
+  color: #000;
+}
+
+@media (max-width: 479px) {
+  .landing {
+    background-position: 50% 100%;
+    background-size: 150%;
+  }
+  .heading {
+    width: 95%;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .image {
+    width: 80%;
+  }
+}
+
+@font-face {
+  font-family: 'Inter ui subset';
+  src: url('../fonts/inter-ui-bold-subset.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
